@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<% include ../../partials/projects/head %>
+    <% var active = 'portal'; %>
+
+        <body data-spy="scroll" data-target="#navigation" data-offset="120">
+
+            <% include ../../partials/projects/work_navbar %>
+                <main class="project-page">
+                    <div class='container'>
+                        <div class="row">
+                            <hr />
+                            <div class="col-md-12 col-lg-8">
+                                <h2>Portal</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <img src="../img/projects/portal/portal2.png" class="project-img img-responsive " alt="hot homes" />
+                                <img src="../img/projects/portal/portal4.png " class="project-img img-responsive " alt="hot homes" />
+                                <img src="../img/projects/portal/portal5.png " class="project-img img-responsive " alt="hot homes" />
+                                <img src="../img/projects/portal/portal6.png " class="project-img img-responsive " alt="hot homes" />
+                            </div>
+                            <div class="col-sm-7">
+                                <div>
+                                    <h4>Summary</h4>
+                                    <p>This is a three-week final project, a replica of Hired.com and Portfolium, that was designed
+                                        to showcase the skills of bootcamp students. A visitor can sign up or log in through
+                                        Github to enter the Portal website. Then user could add his basic information in
+                                        the overview section, such as name and headline. User would add his projects, work
+                                        experience and education history on the profile page. The employers could search
+                                        students for ideal candidates for interviews. The most excited thing about the project
+                                        is that people will use the fully functional web app and get interviews from that!
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>Build with</h4>
+                                    <p>At the back-end, we used Express and LoopBack framework to create RESTful APIs and set
+                                        up the server. With help of LoopBack application, we set up the APIs’ connecting
+                                        to database (MongoDB and mLab). While at the front-end, we chose React and Redux
+                                        frameworks to create interactive UIs. Efficient implements such as Redux Forms, Eslint
+                                        were applied to optimize code. Bootstrap version 4 and Font Awesome CDN were used
+                                        in styling. CircleCI was set up to automate our pipeline from commit to deploy, which
+                                        greatly improve team’s efficiency.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>What I did I do?</h4>
+                                    <p>I set up the CircleCI and wrote the unit tests for models. Then I scaffolded out the
+                                        project template by setting up webpack, initializing the store and setting up middleware,
+                                        worked on components like navigation bar, user overview section and user work experience
+                                        section of the website.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>What did I learn?</h4>
+                                    <p>The most challenge thing is to scaffold out the project template. The challenge is not
+                                        only the coding part, but also deadline pressure. I had to finish on time so others
+                                        could continue working on my template. I didn’t want to act as a drag on productivity
+                                        in the team. As we didn’t figure out what we want to put on Dashboard page, then
+                                        I decided to implement a small app (one button for increment and the other button
+                                        for decrease) on that page to make actions and reducers working. Then others can
+                                        easily start working on different components of the website.
+                                    </p>
+                                    <p>The other obstacle in this project is Redux Form. Everyone says Redux Form is good to
+                                        use, but the truth is it is not easy to use for the first-time user! After reading
+                                        through documentations and examples, I liked to use the Form in the app especially
+                                        with its validation function.
+                                    </p>
+                                    <p>Also the upload file is not a easy piece. The size of upload files has to be limited
+                                        to less than 8M. If we had more time, we could explore AWs for the strage. Overall,
+                                        I kept improving my coding, communication skills and learning many new staffs.</p>
+                                </div>
+                                <div>
+                                    <p class="buttons ">
+                                        <a class="btn btn-primary" href="https://origin-portal.herokuapp.com/">
+                                            <i class="fa fa-globe"></i> Visit website</a>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                </main>
+                <% include ../../partials/projects/script %>
+        </body>
+
+</html>

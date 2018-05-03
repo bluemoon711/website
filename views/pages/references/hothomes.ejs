@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<% include ../../partials/projects/head %>
+
+    <body data-spy="scroll" data-target="#navigation" data-offset="120">
+        <% var active = 'hothomes'; %>
+            <% include ../../partials/projects/work_navbar %>
+                <main class="project-page">
+                    <div class='container'>
+                        <div class="row">
+                            <hr />
+                            <div class="col-md-12 col-lg-8">
+                                <h2>Hot Homes</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <img src="../img/projects/hothomes/hh1.png" class="project-img img-responsive " alt="hot homes" />
+                                <img src="../img/projects/hothomes/hh2.jpg " class="project-img img-responsive " alt="hot homes" />
+                                <img src="../img/projects/hothomes/hh3.jpg " class="project-img img-responsive " alt="hot homes" />
+                                <img src="../img/projects/hothomes/hh4.png " class="project-img img-responsive " alt="hot homes" />
+                            </div>
+                            <div class="col-sm-7">
+                                <div>
+                                    <h4>Summary</h4>
+                                    <p>Our goal is to build up a house-booking website like Airbnb with mock data from the scratch.
+                                        Bacially on Hothomes, a visitor can search for available places but need to sign
+                                        up as a user to make the reservation. Hothomes users may also become landlords to
+                                        post their properties on the website. After logging in Hothomes, a user can view
+                                        either his bookings as a traveler and/or view his properties as a landlord. Does
+                                        that sound quite fulfilling and exciting?</p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>Build with</h4>
+                                    <p>At the back-end, we chose LoopBack framework to build RESTful APIs. With help of LoopBack
+                                        application, we set up the APIs’ connecting to database (MongoDB in this project)
+                                        and server. While at the front-end, we used javascript and react/redux to render
+                                        the HTML pages. Bulma framework and Font Awesome CDN were used in styling. GitBucket
+                                        service was used for version control.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>What I learned from that?</h4>
+                                    <p>The first obstacle I met in this project is Git branch issue. As a group project, each
+                                        member in the team worked on different branch and merged his work into the main branch
+                                        (master) when it was ready. I must admit that I had spent lots of time on resolving
+                                        the repeated merging conflicts manually until Anthony gave us a tutorial on manipulating
+                                        Git repositories on GitBucket. Now I am quite familiar with these steps and ready
+                                        to apply them to the next group-project.
+                                    </p>
+                                    <p>Another thing I learnt is always choosing the right CSS framework first. I used Bootstrap
+                                        at the beginning, but later switched to Bulma as suggested by my team member. Just
+                                        due to this change, couple of hours were wasted on updating the styling to avoid
+                                        conflicts.
+                                    </p>
+                                    <p>Besides, reading other team-members’ codes gave me lots of inspiration and helped me
+                                        understand React better. However, I still feel it is a little difficult to manipulate
+                                        with database, especially for fetching or posting data from nested Json file.
+                                    </p>
+                                    <p>Overall, I have made many mistakes when coding for this project, ranging from typos,
+                                        to missing the initial state of some component, to missing the validation of the
+                                        log-in form, to missing the right reducer for an action. Nevertheless, the important
+                                        thing is that I have learned from the experience, and I am keeping continue improving
+                                        my coding and communication skills.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <p class="buttons ">
+                                        <a class="btn btn-primary " href="https://hothomes.herokuapp.com/ ">
+                                            <i class="fa fa-globe "></i> Visit website</a>
+                                        <a class="btn btn-primary " href="https://github.com/bluemoon711/hothomes ">
+                                            <i class="fa fa-info-circle "></i>Code Information</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                </main>
+                <% include ../../partials/projects/script %>
+    </body>
+
+</html>

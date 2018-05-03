@@ -1,0 +1,10 @@
+/* your styles go here */
+.project-page {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.project-img {
+  margin-bottom: 25px;
+  box-shadow: 2px 2px 5px 3px #8a8a8a;
+}

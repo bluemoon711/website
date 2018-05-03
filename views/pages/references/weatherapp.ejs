@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<% include ../../partials/projects/head %>
+
+    <body data-spy="scroll" data-target="#navigation" data-offset="120">
+        <% var active = 'weatherapp'; %>
+            <% include ../../partials/projects/work_navbar %>
+                <main class="project-page">
+                    <div class='container'>
+                        <div class="row">
+                            <hr />
+                            <div class="col-md-12 col-lg-8">
+                                <h2>Weather App</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <img src="../img/projects/weatherapp/weatherapp2.jpg" class="project-img img-responsive " alt="weather app" />
+                                <img src="../img/projects/weatherapp/weatherapp1.jpg " class="project-img img-responsive " alt="weather app" />
+
+                            </div>
+                            <div class="col-sm-7">
+                                <div>
+                                    <h4>Summary</h4>
+                                    <p>User could search for weather data with this app.</p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>Build with</h4>
+                                    <p>React, Redux, Redux-promise and OpenWeatherMap API.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>What I learned from that?</h4>
+                                    <p>Good practice to create actions and reducers in the building Redux application. Redux
+                                        middleware promise is used to solve differnt states from fetching data with API.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <p class="buttons ">
+                                        <a class="btn btn-primary " href="https://yf-weather-app.herokuapp.com/ ">
+                                            <i class="fa fa-globe "></i> Check the App</a>
+                                        <a class="btn btn-primary " href="https://github.com/bluemoon711/startnow-react200-weather-app ">
+                                            <i class="fa fa-download "></i> More details</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                </main>
+                <% include ../../partials/projects/script %>
+    </body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<% include ../partials/head %>
+
+    <body data-spy="scroll" data-target="#navigation" data-offset="120">
+        <% include ../partials/navbar %>
+            <div id="all">
+                <% include ../partials/intro %>
+                    <% include ../partials/work %>
+                        <% include ../partials/about %>
+                            <% include ../partials/tools %>
+                                <% include ../partials/contact %>
+                                    <% include ../partials/map %>
+                                        <% include ../partials/footer %>
+            </div>
+            <% include ../partials/script %>
+    </body>
+
+</html>

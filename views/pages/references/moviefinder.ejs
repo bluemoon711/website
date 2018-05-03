@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<% include ../../partials/projects/head %>
+
+    <body data-spy="scroll" data-target="#navigation" data-offset="120">
+        <% var active = 'moviefinder'; %>
+            <% include ../../partials/projects/work_navbar %>
+                <main class="project-page">
+                    <div class='container'>
+                        <div class="row">
+                            <hr />
+                            <div class="col-md-12 col-lg-8">
+                                <h2>Movie Finder</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <img src="../img/projects/moviefinder/moviefinder1.jpg" class="project-img img-responsive " alt="movie finder" />
+                                <img src="../img/projects/moviefinder/moviefinder2.png " class="project-img img-responsive " alt="movie finder" />
+
+                            </div>
+                            <div class="col-sm-7">
+                                <div>
+                                    <h4>Summary</h4>
+                                    <p>From this app, users could search for movies and view more information by clicking on
+                                        a movie.</p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>Build with</h4>
+                                    <p> OMDB API, HTML, React, Redux, React Router, Webpack, Nodejs, Expressjs.</p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <h4>What I learned from that?</h4>
+                                    <p>Presentational and container components are introduced in this project. React Router
+                                        is applied to this single-page application website. Links are used to naviagte between
+                                        routes.
+                                    </p>
+                                </div>
+                                <hr />
+                                <div>
+                                    <p class="buttons ">
+                                        <a class="btn btn-primary " href="https://yf-movie-finder1.herokuapp.com/#/">
+                                            <i class="fa fa-globe "></i> Check the App</a>
+                                        <a class="btn btn-primary " href="https://github.com/bluemoon711/startnow-react200-movie-finder ">
+                                            <i class="fa fa-download "></i> More details</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                </main>
+                <% include ../../partials/projects/script %>
+    </body>
+
+</html>
