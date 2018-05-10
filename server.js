@@ -21,23 +21,6 @@ app.get('/', (req, res) => {
 app.get('/references/:project', (req, res) => {
   res.render(`references/${req.params.project}`);
 });
-/* 
-app.post('/contact', (req, res) => {
-  const { firstName, lastName, email, message } = req.body;
-  res.render('contact', {
-    firstName,
-    mailSent: true
-  });
-  const sgMail = require('@sendgrid/mail');
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
-  const msg = {
-    to: 'yingcathyfan@gmail.com',
-    from: 'email',
-    subject: 'Contact from ${firstName} ${lastName}',
-    text: message
-  };
-  sgMail.send(msg);
-}); */
 
 app.listen(port, () => {
   console.log('Listening at http://localhost:' + port);
